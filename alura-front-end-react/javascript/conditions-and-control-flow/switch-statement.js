@@ -1,4 +1,4 @@
-const notaDoAluno = 11
+const notaDoAluno = 4
 
 // Entre 9 e 10: excelente
 // Entre 7 e 8: bom
