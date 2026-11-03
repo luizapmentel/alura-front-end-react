@@ -1,6 +1,6 @@
 const idade = 17;
 
-// condicional simples
+// Condicional simples
 if (idade >= 18) {
     console.log('Maior de idade');
 }
@@ -9,20 +9,20 @@ if (idade < 18) {
     console.log('Menor de idade');
 }
 
-// condicional composta
+// Condicional composta
 if (idade >= 18) {
     console.log('Maior de idade')
 } else {
     console.log('Menor de idade')
 }
 
-// condicional encadeada
+// Condicional encadeada
 const notaDoAluno = 9
 
-// entre 9 e 10: excelente
-// entre 7 e 8: bom
-// entre 4 e 6: regular
-// entre 0 e 3: ruim
+// Entre 9 e 10: excelente
+// Entre 7 e 8: bom
+// Entre 4 e 6: regular
+// Entre 0 e 3: ruim
 
 if (notaDoAluno >= 9) { 
     console.log('Excelente')
@@ -34,7 +34,7 @@ if (notaDoAluno >= 9) {
     console.log('Ruim')
 }
 
-// condicional aninhada 
+// Condicional aninhada 
 const temCarteira = false
 
 if (idade >= 18) {
@@ -43,5 +43,5 @@ if (idade >= 18) {
     }
 }
 
-// operador ternário
+// Operador ternário
 idade >= 18 ? console.log('Maior de idade') : console.log('Menor de idade')

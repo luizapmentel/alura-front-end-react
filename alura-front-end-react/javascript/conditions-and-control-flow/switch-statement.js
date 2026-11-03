@@ -1,9 +1,9 @@
-// entre 9 e 10: excelente
-// entre 7 e 8: bom
-// entre 4 e 6: regular
-// entre 0 e 3: ruim
-
 const notaDoAluno = 11
+
+// Entre 9 e 10: excelente
+// Entre 7 e 8: bom
+// Entre 4 e 6: regular
+// Entre 0 e 3: ruim
 
 switch(notaDoAluno) {
     case 10:
