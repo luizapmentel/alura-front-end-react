@@ -32,3 +32,10 @@ const palavra = 'institucional'
 for (let contador = 0; contador < palavra.length; contador++) {
     console.log(palavra[contador])
 }
+
+// For...of: itera diretamente sobre os elementos da string, removendo o uso de índices
+const palavra2 = 'exemplo'
+
+for (const caractere of palavra2) {
+  console.log(caractere);
+}
