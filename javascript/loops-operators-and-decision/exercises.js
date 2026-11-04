@@ -18,7 +18,15 @@ for (let celsius = 0; celsius <= 100; celsius += 10) {
 
 // Teste com numero = 0. O fatorial de zero é 1 — o seu código devolve isso sozinho ou você precisou tratar o caso?
 
-let numero = 0
+let numero = 5
+let fatorial = 1
+
+for (let i = 1; i < numero; i++) {
+    fatorial = fatorial * i
+    console.log('Número atual:' + i)
+}
+
+/* let numero = 0
 let fatorial = 1
 let contador = numero
 
@@ -27,4 +35,4 @@ while (contador > 1) {
     contador--
 }
 
-console.log(numero + '! = ' + fatorial)
+console.log(numero + '! = ' + fatorial) */
